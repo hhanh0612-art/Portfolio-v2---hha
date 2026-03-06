@@ -195,53 +195,6 @@ section {
   text-decoration: underline;
 }
 
-/*Phần ô project*/
-.project-card {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-
-  background: #241c18;
-  border: 1px solid #57443b;
-  padding: 20px;
-  border-radius: 20px;
-
-  text-decoration: none;
-  color: inherit;
-
-  transition: 0.3s;
-}
-.project-card:hover {
-  transform: translateY(-5px);
-}
-.project-image {
-  /* ô vuông ảnh */
-  width: 80px;
-  height: 80px;
-  flex-shrink: 0;
-
-  border-radius: 12px;
-  overflow: hidden;
-
-  border: 1px solid #3a2d27;
-}
-
-.project-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* text project */
-
-.project-info h4 {
-  margin-bottom: 6px;
-}
-
-.project-info p {
-  color: #d6cfc7;
-  font-size: 14px;
-}
 /*phần cuối*/
 footer {
   text-align: center;
